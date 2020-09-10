@@ -8,6 +8,8 @@ var (
 	GenericErr   = errors.New("generic_err")
 	InvalidToken = errors.New("invalid_token")
 	InvalidDataSent  = errors.New("invalid_data_sent")
+	EmptyLanguageID = errors.New("empty_language_id")
+	DBPointerEmpty = errors.New("db_pointer_empty")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
