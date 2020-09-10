@@ -9,7 +9,7 @@ var (
 	InvalidToken    = errors.New("invalid_token")
 	InvalidDataSent = errors.New("invalid_data_sent")
 	EmptyLanguageID = errors.New("empty_language_id")
-	DBPointerEmpty  = errors.New("db_pointer_empty")
+	EmptyDBPointer  = errors.New("empty_db_pointer")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
