@@ -23,6 +23,7 @@ var (
 	InvalidEmail          = errors.New("invalid_email")
 	EmailTaken            = errors.New("email_taken")
 	CouldNotGetUserAvatar = errors.New("could_not_get_user_avatar")
+	WrongCredentials      = errors.New("wrong_credentials")
 
 	// DB Specific errors
 	RecordNotFound = errors.New("record_not_found")
