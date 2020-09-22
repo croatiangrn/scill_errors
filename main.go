@@ -33,4 +33,12 @@ var (
 	RecordNotFound = errors.New("record_not_found")
 
 	CouldNotAddGamesToTheList = errors.New("could_not_add_games_to_the_list")
+	GameCannotBeEmpty         = errors.New("game_cannot_be_empty")
+
+	StartDateEmpty              = errors.New("start_date_cannot_be_empty")
+	EndDateEmpty                = errors.New("end_date_cannot_be_empty")
+	StartDateGreaterThanEndDate = errors.New("start_date_cannot_be_greater_than_end_date")
+
+	EventNameBlank     = errors.New("event_name_cannot_be_blank")
+	ReadMoreLinkNotURL = errors.New("read_more_link_is_not_valid")
 )
