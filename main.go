@@ -5,12 +5,13 @@ import "errors"
 //goland:noinspection GoUnusedGlobalVariable
 var (
 	// Common errors
-	GenericErr      = errors.New("generic_err")
-	InvalidToken    = errors.New("invalid_token")
-	InvalidDataSent = errors.New("invalid_data_sent")
-	EmptyLanguageID = errors.New("empty_language_id")
-	EmptyDBPointer  = errors.New("empty_db_pointer")
-	EmptyPrimaryKey = errors.New("empty_primary_key")
+	GenericErr        = errors.New("generic_err")
+	InvalidToken      = errors.New("invalid_token")
+	InvalidDataSent   = errors.New("invalid_data_sent")
+	EmptyLanguageID   = errors.New("empty_language_id")
+	EmptyDBPointer    = errors.New("empty_db_pointer")
+	EmptyPrimaryKey   = errors.New("empty_primary_key")
+	InvalidPrimaryKey = errors.New("invalid_primary_key")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
