@@ -10,6 +10,7 @@ var (
 	InvalidDataSent = errors.New("invalid_data_sent")
 	EmptyLanguageID = errors.New("empty_language_id")
 	EmptyDBPointer  = errors.New("empty_db_pointer")
+	EmptyPrimaryKey = errors.New("empty_primary_key")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
