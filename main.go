@@ -12,6 +12,7 @@ var (
 	EmptyDBPointer    = errors.New("empty_db_pointer")
 	EmptyPrimaryKey   = errors.New("empty_primary_key")
 	InvalidPrimaryKey = errors.New("invalid_primary_key")
+	ParseID           = errors.New("could_not_parse_id")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
