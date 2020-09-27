@@ -42,4 +42,7 @@ var (
 
 	EventNameBlank     = errors.New("event_name_cannot_be_blank")
 	ReadMoreLinkNotURL = errors.New("read_more_link_is_not_valid")
+
+	ChallengeNameBlank              = errors.New("challenge_name_cannot_be_blank")
+	ChallengeDurationLessThanSecond = errors.New("challenge_duration_cannot_be_less_than_second")
 )
