@@ -49,5 +49,7 @@ var (
 	ChallengeNameBlank              = errors.New("challenge_name_cannot_be_blank")
 	ChallengeDurationLessThanSecond = errors.New("challenge_duration_cannot_be_less_than_second")
 	ChallengeGoalLessThanOne        = errors.New("challenge_goal_cannot_be_less_than_one")
-	CategoryDoesNotExist            = errors.New("category_does_not_exist")
+
+	ApplicationDoesNotExist = errors.New("application_does_not_exist")
+	CategoryDoesNotExist    = errors.New("category_does_not_exist")
 )
