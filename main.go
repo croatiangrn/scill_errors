@@ -52,5 +52,6 @@ var (
 
 	ApplicationDoesNotExist     = errors.New("application_does_not_exist")
 	CategoryDoesNotExist        = errors.New("category_does_not_exist")
+	CategoryNameBlank           = errors.New("category_name_cannot_be_blank")
 	InvalidCategoryTypeProvided = errors.New("invalid_category_type_provided")
 )
