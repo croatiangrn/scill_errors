@@ -54,4 +54,6 @@ var (
 	CategoryDoesNotExist        = errors.New("category_does_not_exist")
 	CategoryNameBlank           = errors.New("category_name_cannot_be_blank")
 	InvalidCategoryTypeProvided = errors.New("invalid_category_type_provided")
+
+	SameChallengeTypeAlreadyActive = errors.New("same_challenge_type_already_active")
 )
