@@ -9,6 +9,7 @@ var (
 	InvalidToken      = errors.New("invalid_token")
 	InvalidDataSent   = errors.New("invalid_data_sent")
 	EmptyLanguageID   = errors.New("empty_language_id")
+	EmptyUserID       = errors.New("empty_user_id")
 	EmptyDBPointer    = errors.New("empty_db_pointer")
 	EmptyPrimaryKey   = errors.New("empty_primary_key")
 	InvalidPrimaryKey = errors.New("invalid_primary_key")
