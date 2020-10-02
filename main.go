@@ -57,4 +57,8 @@ var (
 	InvalidCategoryTypeProvided = errors.New("invalid_category_type_provided")
 
 	SameChallengeTypeAlreadyActive = errors.New("same_challenge_type_already_active")
+
+	MailjetReceiverEmailBlank = errors.New("mailjet_receiver_email_blank")
+	MailjetSubjectEmailBlank  = errors.New("mailjet_subject_email_blank")
+	MailjetTemplateIDZero     = errors.New("mailjet_template_id_zero")
 )
