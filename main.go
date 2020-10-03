@@ -17,6 +17,7 @@ var (
 	CategoryIDBlank   = errors.New("category_id_cannot_be_blank")
 	HTTPRequestErr    = errors.New("http_request_error_occurred")
 	RedisDelKeyErr    = errors.New("redis_deleting_key_error_occurred")
+	InvalidURL        = errors.New("invalid_url_provided")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
