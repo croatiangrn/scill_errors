@@ -5,19 +5,20 @@ import "errors"
 //goland:noinspection GoUnusedGlobalVariable
 var (
 	// Common errors
-	GenericErr        = errors.New("generic_err")
-	InvalidToken      = errors.New("invalid_token")
-	InvalidDataSent   = errors.New("invalid_data_sent")
-	EmptyLanguageID   = errors.New("empty_language_id")
-	EmptyUserID       = errors.New("empty_user_id")
-	EmptyDBPointer    = errors.New("empty_db_pointer")
-	EmptyPrimaryKey   = errors.New("empty_primary_key")
-	InvalidPrimaryKey = errors.New("invalid_primary_key")
-	ParseID           = errors.New("could_not_parse_id")
-	CategoryIDBlank   = errors.New("category_id_cannot_be_blank")
-	HTTPRequestErr    = errors.New("http_request_error_occurred")
-	RedisDelKeyErr    = errors.New("redis_deleting_key_error_occurred")
-	InvalidURL        = errors.New("invalid_url_provided")
+	GenericErr          = errors.New("generic_err")
+	InvalidToken        = errors.New("invalid_token")
+	InvalidDataSent     = errors.New("invalid_data_sent")
+	InvalidDataReceived = errors.New("invalid_data_received")
+	EmptyLanguageID     = errors.New("empty_language_id")
+	EmptyUserID         = errors.New("empty_user_id")
+	EmptyDBPointer      = errors.New("empty_db_pointer")
+	EmptyPrimaryKey     = errors.New("empty_primary_key")
+	InvalidPrimaryKey   = errors.New("invalid_primary_key")
+	ParseID             = errors.New("could_not_parse_id")
+	CategoryIDBlank     = errors.New("category_id_cannot_be_blank")
+	HTTPRequestErr      = errors.New("http_request_error_occurred")
+	RedisDelKeyErr      = errors.New("redis_deleting_key_error_occurred")
+	InvalidURL          = errors.New("invalid_url_provided")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
