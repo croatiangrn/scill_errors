@@ -16,6 +16,7 @@ var (
 	ParseID           = errors.New("could_not_parse_id")
 	CategoryIDBlank   = errors.New("category_id_cannot_be_blank")
 	HTTPRequestErr    = errors.New("http_request_error_occurred")
+	RedisDelKeyErr    = errors.New("redis_deleting_key_error_occurred")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
