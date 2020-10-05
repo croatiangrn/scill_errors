@@ -74,4 +74,8 @@ var (
 
 	FmtWebhookSecretKeyMinLength  = errors.New("webhook_secret_key_must_be_%d_characters_long")
 	FMTInvalidURLForFieldProvided = errors.New("invalid_url_for_%q_provided")
+
+	// Formatted errors -- END
+
+	BillingProfileNotFound = errors.New("billing_profile_not_found")
 )
