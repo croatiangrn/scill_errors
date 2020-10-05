@@ -66,4 +66,6 @@ var (
 	MailjetReceiverEmailBlank = errors.New("mailjet_receiver_email_blank")
 	MailjetSubjectEmailBlank  = errors.New("mailjet_subject_email_blank")
 	MailjetTemplateIDZero     = errors.New("mailjet_template_id_zero")
+
+	UnknownWebhookType = errors.New("unknown_webhook_type")
 )
