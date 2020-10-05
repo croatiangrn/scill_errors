@@ -67,5 +67,9 @@ var (
 	MailjetSubjectEmailBlank  = errors.New("mailjet_subject_email_blank")
 	MailjetTemplateIDZero     = errors.New("mailjet_template_id_zero")
 
-	UnknownWebhookType = errors.New("unknown_webhook_type")
+	UnknownWebhookType           = errors.New("unknown_webhook_type")
+
+	// Formatted errors
+
+	FmtWebhookSecretKeyMinLength = errors.New("webhook_secret_key_must_be_%d_characters_long")
 )
