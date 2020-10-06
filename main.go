@@ -76,6 +76,7 @@ var (
 	FmtWebhookSecretKeyMinLength  = errors.New("webhook_secret_key_must_be_%d_characters_long")
 	FMTInvalidURLForFieldProvided = errors.New("invalid_url_for_%q_provided")
 	FmtWebhookTypeAlreadyExists   = errors.New("webhook_type_%q_already_exists")
+	FmtMaxUploadSizeMB            = errors.New("max_upload_size_for_upload_is_%d_mb")
 
 	// Formatted errors -- END
 
