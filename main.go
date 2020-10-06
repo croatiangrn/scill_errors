@@ -9,6 +9,7 @@ var (
 	InvalidToken          = errors.New("invalid_token")
 	InvalidDataSent       = errors.New("invalid_data_sent")
 	InvalidDataReceived   = errors.New("invalid_data_received")
+	InvalidMediaType      = errors.New("invalid_media_type")
 	ContentTypeMustBeJSON = errors.New("content_type_must_be_json")
 	EmptyLanguageID       = errors.New("empty_language_id")
 	EmptyUserID           = errors.New("empty_user_id")
