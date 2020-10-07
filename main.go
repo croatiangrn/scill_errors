@@ -21,6 +21,7 @@ var (
 	HTTPRequestErr        = errors.New("http_request_error_occurred")
 	RedisDelKeyErr        = errors.New("redis_deleting_key_error_occurred")
 	InvalidURL            = errors.New("invalid_url_provided")
+	InvalidServiceName    = errors.New("invalid_service_name_provided")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
