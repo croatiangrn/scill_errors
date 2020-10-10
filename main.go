@@ -83,4 +83,7 @@ var (
 	// Formatted errors -- END
 
 	BillingProfileNotFound = errors.New("billing_profile_not_found")
+
+	// Generic challenges errors
+	GenericChallengeMissingRequiredMetadata = errors.New("challenge_is_missing_required_metadata")
 )
