@@ -23,6 +23,7 @@ var (
 	InvalidURL            = errors.New("invalid_url_provided")
 	InvalidServiceName    = errors.New("invalid_service_name_provided")
 	BlankEndpoint         = errors.New("endpoint_cannot_be_blank")
+	UnknownApp            = errors.New("unknown_app")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
