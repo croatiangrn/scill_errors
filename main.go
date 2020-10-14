@@ -88,7 +88,8 @@ var (
 	BillingProfileNotFound = errors.New("billing_profile_not_found")
 
 	// Generic challenges errors
-	GenericChallengePayloadMissingRequiredMetadata = errors.New("generic_challenge_payload_is_missing_required_metadata")
-	GenericChallengePayloadMissingSessionID        = errors.New("generic_challenge_payload_is_missing_session_id")
-	GenericChallengeDamageAmountCannotBeZero       = errors.New("generic_challenge_damage_amount_cannot_be_zero")
+	GenericChallengePayloadMissingRequiredMetadata        = errors.New("generic_challenge_payload_is_missing_required_metadata")
+	GenericChallengePayloadMissingSessionID               = errors.New("generic_challenge_payload_is_missing_session_id")
+	GenericChallengeDamageAmountCannotBeZero              = errors.New("generic_challenge_damage_amount_cannot_be_zero")
+	GenericChallengeWeaponIDOrWeaponUsedMustContainValues = errors.New("weapon_id_or_weapon_used_must_contain_values")
 )
