@@ -90,4 +90,5 @@ var (
 	// Generic challenges errors
 	GenericChallengePayloadMissingRequiredMetadata = errors.New("generic_challenge_payload_is_missing_required_metadata")
 	GenericChallengePayloadMissingSessionID        = errors.New("generic_challenge_payload_is_missing_session_id")
+	GenericChallengeDamageAmountCannotBeZero       = errors.New("generic_challenge_damage_amount_cannot_be_zero")
 )
