@@ -119,4 +119,5 @@ var (
 	GenericChallengeWeaponTypeCannotBeBlank               = errors.New("generic_challenge_weapon_type_cannot_be_blank")
 	GenericChallengeBountyNameCannotBeBlank               = errors.New("generic_challenge_bounty_name_cannot_be_blank")
 	GenericChallengeBuildingIDCannotBeBlank               = errors.New("generic_challenge_building_id_cannot_be_blank")
+	GenericChallengeTransportIDCannotBeBlank              = errors.New("generic_challenge_transport_id_cannot_be_blank")
 )
