@@ -113,4 +113,5 @@ var (
 	GenericChallengeRequiredTimeOrDurationMissing         = errors.New("generic_challenge_required_time_or_duration_missing")
 	GenericChallengeRequiredTimeMissing                   = errors.New("generic_challenge_required_time_missing")
 	GenericChallengeDistanceCannotBeZero                  = errors.New("generic_challenge_distance_cannot_be_zero")
+	GenericChallengeCardTypeCannotBeZero                  = errors.New("generic_challenge_card_type_cannot_be_zero")
 )
