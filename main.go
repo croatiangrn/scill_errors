@@ -104,4 +104,5 @@ var (
 	GenericChallengeGivenResourceCannotBeBlank            = errors.New("generic_challenge_given_resource_cannot_be_blank")
 	GenericChallengeAmountGainedCannotBeBlank             = errors.New("generic_challenge_amount_gained_cannot_be_blank")
 	GenericChallengeAmountGivenCannotBeBlank              = errors.New("generic_challenge_amount_given_cannot_be_blank")
+	GenericChallengeAnimalNameCannotBeBlank              = errors.New("generic_challenge_animal_name_cannot_be_blank")
 )
