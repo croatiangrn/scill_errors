@@ -92,4 +92,5 @@ var (
 	GenericChallengePayloadMissingSessionID               = errors.New("generic_challenge_payload_is_missing_session_id")
 	GenericChallengeDamageAmountCannotBeZero              = errors.New("generic_challenge_damage_amount_cannot_be_zero")
 	GenericChallengeWeaponIDOrWeaponUsedMustContainValues = errors.New("weapon_id_or_weapon_used_must_contain_values")
+	GenericChallengeCharacterNameCannotBeBlank            = errors.New("generic_challenge_character_name_cannot_be_blank")
 )
