@@ -109,4 +109,5 @@ var (
 	GenericChallengeScoreCannotBeZero                     = errors.New("generic_challenge_score_cannot_be_zero")
 	GenericChallengeUnitTypeCannotBeBlank                 = errors.New("generic_challenge_unit_type_cannot_be_blank")
 	GenericChallengePlayerCharacterCannotBeBlank          = errors.New("generic_challenge_player_character_cannot_be_blank")
+	GenericChallengeRequiredTimeOrDurationMissing         = errors.New("generic_challenge_required_time_or_duration_missing")
 )
