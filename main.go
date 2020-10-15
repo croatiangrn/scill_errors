@@ -129,4 +129,5 @@ var (
 	GenericChallengeMissionIDCannotBeBlank                = errors.New("generic_challenge_mission_id_cannot_be_blank")
 	GenericChallengeCheckpointIDCannotBeBlank             = errors.New("generic_challenge_checkpoint_id_cannot_be_blank")
 	GenericChallengeLevelIDCannotBeBlank                  = errors.New("generic_challenge_level_id_cannot_be_blank")
+	GenericChallengeItemIDCannotBeBlank                   = errors.New("generic_challenge_item_id_cannot_be_blank")
 )
