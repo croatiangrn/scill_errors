@@ -126,4 +126,5 @@ var (
 	GenericChallengeAwayTeamScoreCannotBeBlank            = errors.New("generic_challenge_away_team_score_cannot_be_blank")
 	GenericChallengePuzzleIDCannotBeBlank                 = errors.New("generic_challenge_puzzle_id_cannot_be_blank")
 	GenericChallengeActionTypeCannotBeBlank               = errors.New("generic_challenge_action_type_cannot_be_blank")
+	GenericChallengeMissionIDCannotBeBlank                = errors.New("generic_challenge_mission_id_cannot_be_blank")
 )
