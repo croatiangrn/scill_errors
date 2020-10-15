@@ -97,4 +97,5 @@ var (
 	GenericChallengeRoundIDCannotBeBlank                  = errors.New("generic_challenge_round_id_cannot_be_blank")
 	GenericChallengeResourceNameCannotBeBlank             = errors.New("generic_challenge_resource_name_cannot_be_blank")
 	GenericChallengeItemNameCannotBeBlank                 = errors.New("generic_challenge_item_name_cannot_be_blank")
+	GenericChallengeCrewNameCannotBeBlank                 = errors.New("generic_challenge_crew_name_cannot_be_blank")
 )
