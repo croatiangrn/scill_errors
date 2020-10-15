@@ -100,4 +100,8 @@ var (
 	GenericChallengeCrewNameCannotBeBlank                 = errors.New("generic_challenge_crew_name_cannot_be_blank")
 	GenericChallengeCoordinateXCannotBeBlank              = errors.New("generic_challenge_coordinate_x_cannot_be_blank")
 	GenericChallengeCoordinateYCannotBeBlank              = errors.New("generic_challenge_coordinate_y_cannot_be_blank")
+	GenericChallengeGainedResourceCannotBeBlank           = errors.New("generic_challenge_gained_resource_cannot_be_blank")
+	GenericChallengeGivenResourceCannotBeBlank            = errors.New("generic_challenge_given_resource_cannot_be_blank")
+	GenericChallengeAmountGainedCannotBeBlank             = errors.New("generic_challenge_amount_gained_cannot_be_blank")
+	GenericChallengeAmountGivenCannotBeBlank              = errors.New("generic_challenge_amount_given_cannot_be_blank")
 )
