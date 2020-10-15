@@ -116,4 +116,5 @@ var (
 	GenericChallengeDistanceCannotBeZero                  = errors.New("generic_challenge_distance_cannot_be_zero")
 	GenericChallengeCardTypeCannotBeZero                  = errors.New("generic_challenge_card_type_cannot_be_zero")
 	GenericChallengeEffectIDCannotBeBlank                 = errors.New("generic_challenge_effect_id_cannot_be_blank")
+	GenericChallengeWeaponTypeCannotBeBlank               = errors.New("generic_challenge_weapon_type_cannot_be_blank")
 )
