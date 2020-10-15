@@ -107,6 +107,7 @@ var (
 	GenericChallengeAmountGivenCannotBeBlank              = errors.New("generic_challenge_amount_given_cannot_be_blank")
 	GenericChallengeAnimalNameCannotBeBlank               = errors.New("generic_challenge_animal_name_cannot_be_blank")
 	GenericChallengeScoreCannotBeZero                     = errors.New("generic_challenge_score_cannot_be_zero")
+	GenericChallengeAmountCannotBeZero                    = errors.New("generic_challenge_amount_cannot_be_zero")
 	GenericChallengeUnitTypeCannotBeBlank                 = errors.New("generic_challenge_unit_type_cannot_be_blank")
 	GenericChallengePlayerCharacterCannotBeBlank          = errors.New("generic_challenge_player_character_cannot_be_blank")
 	GenericChallengeRequiredTimeOrDurationMissing         = errors.New("generic_challenge_required_time_or_duration_missing")
