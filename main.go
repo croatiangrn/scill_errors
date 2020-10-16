@@ -56,11 +56,12 @@ var (
 	EventNameBlank     = errors.New("event_name_cannot_be_blank")
 	ReadMoreLinkNotURL = errors.New("read_more_link_is_not_valid")
 
-	ChallengeNameBlank              = errors.New("challenge_name_cannot_be_blank")
-	ChallengeDurationLessThanSecond = errors.New("challenge_duration_cannot_be_less_than_second")
-	ChallengeGoalLessThanOne        = errors.New("challenge_goal_cannot_be_less_than_one")
-	ChallengeTypeCannotBeBlank      = errors.New("challenge_type_cannot_be_blank")
-
+	ChallengeNameBlank                   = errors.New("challenge_name_cannot_be_blank")
+	ChallengeDurationLessThanSecond      = errors.New("challenge_duration_cannot_be_less_than_second")
+	ChallengeGoalLessThanOne             = errors.New("challenge_goal_cannot_be_less_than_one")
+	ChallengeTypeCannotBeBlank           = errors.New("challenge_type_cannot_be_blank")
+	GenericChallengeMetadataMustBeUnique = errors.New("generic_challenge_metadata_must_be_unique")
+	
 	ApplicationDoesNotExist     = errors.New("application_does_not_exist")
 	CategoryDoesNotExist        = errors.New("category_does_not_exist")
 	CategoryNameBlank           = errors.New("category_name_cannot_be_blank")
