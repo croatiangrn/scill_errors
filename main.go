@@ -61,7 +61,7 @@ var (
 	ChallengeGoalLessThanOne             = errors.New("challenge_goal_cannot_be_less_than_one")
 	ChallengeTypeCannotBeBlank           = errors.New("challenge_type_cannot_be_blank")
 	GenericChallengeMetadataMustBeUnique = errors.New("generic_challenge_metadata_must_be_unique")
-	
+
 	ApplicationDoesNotExist     = errors.New("application_does_not_exist")
 	CategoryDoesNotExist        = errors.New("category_does_not_exist")
 	CategoryNameBlank           = errors.New("category_name_cannot_be_blank")
@@ -110,6 +110,7 @@ var (
 	GenericChallengeAnimalNameCannotBeBlank               = errors.New("generic_challenge_animal_name_cannot_be_blank")
 	GenericChallengeScoreCannotBeZero                     = errors.New("generic_challenge_score_cannot_be_zero")
 	GenericChallengeAmountCannotBeZero                    = errors.New("generic_challenge_amount_cannot_be_zero")
+	GenericChallengeAmmoUsedCannotBeZero                  = errors.New("generic_challenge_ammo_used_cannot_be_zero")
 	GenericChallengeUnitTypeCannotBeBlank                 = errors.New("generic_challenge_unit_type_cannot_be_blank")
 	GenericChallengePlayerCharacterCannotBeBlank          = errors.New("generic_challenge_player_character_cannot_be_blank")
 	GenericChallengeRequiredTimeOrDurationMissing         = errors.New("generic_challenge_required_time_or_duration_missing")
