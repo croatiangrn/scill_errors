@@ -134,5 +134,6 @@ var (
 	GenericChallengeItemIDCannotBeBlank                   = errors.New("generic_challenge_item_id_cannot_be_blank")
 	GenericChallengeMapNameCannotBeBlank                  = errors.New("generic_challenge_map_name_cannot_be_blank")
 	GenericChallengeMapSectionNameCannotBeBlank           = errors.New("generic_challenge_map_section_name_cannot_be_blank")
+	GenericChallengeSomeMetadataKeysAreNotAllowed         = errors.New("generic_challenge_some_metadata_keys_are_not_allowed")
 	GenericChallengeSomeMetadataHasInvalidTypes           = errors.New("generic_challenge_some_metadata_has_invalid_types")
 )
