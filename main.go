@@ -93,6 +93,7 @@ var (
 	GenericChallengePayloadMissingRequiredMetadata        = errors.New("generic_challenge_payload_is_missing_required_metadata")
 	GenericChallengePayloadMissingSessionID               = errors.New("generic_challenge_payload_is_missing_session_id")
 	GenericChallengeDamageAmountCannotBeZero              = errors.New("generic_challenge_damage_amount_cannot_be_zero")
+	GenericChallengeLapPositionCannotBeZero               = errors.New("generic_challenge_lap_position_cannot_be_zero")
 	GenericChallengeWeaponIDOrWeaponUsedMustContainValues = errors.New("weapon_id_or_weapon_used_must_contain_values")
 	GenericChallengeCharacterNameCannotBeBlank            = errors.New("generic_challenge_character_name_cannot_be_blank")
 	GenericChallengeBattleStatusCannotBeBlank             = errors.New("generic_challenge_battle_status_cannot_be_blank")
