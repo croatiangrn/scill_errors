@@ -27,6 +27,7 @@ var (
 	FieldXCannotBeBlank              = errors.New("field_x_cannot_be_blank")
 	GaaSUserIDAccessTokenIDMismatch  = errors.New("gaas_user_id_access_token_id_mismatch")
 	GaaSExpectedAPIKeyGotAccessToken = errors.New("gaas_expected_api_key_got_access_token")
+	GaaSNoAccessTokenProvided        = errors.New("gaas_no_access_token_provided")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
