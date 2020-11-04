@@ -80,6 +80,8 @@ var (
 	UnknownWebhookType          = errors.New("unknown_webhook_type")
 	WebhookSecretKeyMustInclude = errors.New("webhook_secret_key_must_include")
 
+	BattlePassHasAlreadyBeenPurchased = errors.New("battle_pass_has_already_been_purchased")
+
 	// Formatted errors
 
 	FmtWebhookSecretKeyMinLength          = errors.New("webhook_secret_key_must_be_%d_characters_long")
