@@ -82,6 +82,9 @@ var (
 
 	BattlePassHasAlreadyBeenPurchased = errors.New("battle_pass_has_already_been_purchased")
 
+	ChallengeHasAlreadyBeenActivated = errors.New("challenge_has_already_been_activated")
+
+
 	// Formatted errors
 
 	FmtWebhookSecretKeyMinLength          = errors.New("webhook_secret_key_must_be_%d_characters_long")
