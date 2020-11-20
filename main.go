@@ -28,6 +28,7 @@ var (
 	GaaSUserIDAccessTokenIDMismatch  = errors.New("gaas_user_id_access_token_id_mismatch")
 	GaaSExpectedAPIKeyGotAccessToken = errors.New("gaas_expected_api_key_got_access_token")
 	GaaSNoAccessTokenProvided        = errors.New("gaas_no_access_token_provided")
+	ConnectionClosed                 = errors.New("connection_closed")
 
 	// GDPR Errors
 	DataPrivacyNotApproved   = errors.New("data_privacy_not_approved")
@@ -83,7 +84,6 @@ var (
 	BattlePassHasAlreadyBeenPurchased = errors.New("battle_pass_has_already_been_purchased")
 
 	ChallengeHasAlreadyBeenActivated = errors.New("challenge_has_already_been_activated")
-
 
 	// Formatted errors
 
